@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lab10.MainPage">
+
+    <StackLayout>
+        <Button x:Name="viewToViewBtn" Text="ViewToViewDemo" Clicked="GoToViewToViewDemo"></Button>
+        <Button x:Name="BindingModeDemoBtn" Text="BindingModeDemo" Clicked="GoToBindingModeDemo"></Button>
+        <Button x:Name="ListViewDemoBtn" Text="ListViewDemo" Clicked="GoToListViewDemo"></Button>
+        <Button x:Name="PickerDemoBtn" Text="PickerDemo" Clicked="GoToPickerDemo"></Button>
+    </StackLayout>
+
+</ContentPage>
